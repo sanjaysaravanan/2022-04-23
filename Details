@@ -1,0 +1,49 @@
+
+Recap:
+
+Bootsrap Breakpoints:
+  Predefined set of infix( key that used in-between )/keys which indicates a range of resolution which goes as the width of certain physical display device.
+
+Bootstrap:
+  Containers ---> .container containing the pages content inside inside it
+
+  Columns Layout ---> A layout that divides the 100% of the resolution into 12 Columns
+        Each Col occupies -> 100/12 --> 8.33333%
+        Each col-3 occupies -> 100/12 * 3 --> 25% 
+        Each col-4 occupies -> 100/12 * 4 --> 33.33333%
+        Each col-6 occupies -> 100/12 * 6 --> 50%
+        Each col-12 occupies -> 100/12 * 12 --> 100%
+
+  Columns Layout with Breakpoints: Columns layout with Breakpoints on resolution eg: col-lg-1,
+
+  Grid ---> 
+    container>row>columns
+
+  Grid System that allows to divided the strict twelve columns layout
+  Overflow of will create new row with the last column that made overflow
+
+
+Topics:
+
+  DOM ---> Document Object Model
+
+  using JavaScript inside HTML
+ 
+  Document
+    getElementById - Select a document object which has a specific Id
+    getElementsByClassName - Select document objects which has a specific class name
+
+    createElement --> create a document object with a specified tag name
+
+    innerHtml ---> renderable/parsable string which is converted to HTML tag content
+    innerText ---> litteraly inner text/strings inside a tag/element/node
+
+    appendChild ---> used to append only a newChild
+    append ---> used to append multiple which comes as args 
+    setAttribute ---> used to set an attribute for an element / node / tag
+
+    
+    querySelector ---> Select a first occuring document object which matches the query
+    querySelectorAll  ---> Selects all document objects which matchs the specified query
+    
+    
